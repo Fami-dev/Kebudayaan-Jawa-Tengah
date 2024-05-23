@@ -1,0 +1,351 @@
+.herosection {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-image: linear-gradient(to top, rgba(28, 32, 42, 1), rgba(28, 32, 42, 0)), url('/img/jateng.jpg');
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: cover;
+ height: 100vh;
+}
+
+.judul1 h1 {
+ color: #fff;
+ font-weight: bold;
+ font-size: 4rem;
+ letter-spacing: 2px;
+}
+
+.judul1 span {
+ color: #F0DA00;
+}
+
+.judul1 h2 {
+ color: #fff;
+ font-weight: 300;
+ font-size: 3rem;
+ font-family: "poppins";
+ letter-spacing: 4px;
+
+}
+
+.judulbutton {
+ margin-top: 40px;
+}
+
+.judulbutton a {
+ text-decoration: none;
+}
+
+.judul1button {
+ text-align: center;
+ border: none;
+ background-color: #F0DA00;
+ border-radius: 5px;
+ color: black;
+ padding: 5px 10px;
+ font-weight: bold;
+ font-size: 2rem;
+ margin: 10px 20px;
+ transition: all ease 0.5s;
+}
+
+.judul2button {
+ text-align: center;
+ border: 2px solid #F0DA00;
+ background-color: transparent;
+ border-radius: 5px;
+ color: white;
+ padding: 5px 10px;
+ font-weight: bold;
+ font-size: 2rem;
+ margin: 10px 20px;
+ transition: all ease 0.5s;
+ z-index: 1;
+}
+
+
+.judul1button:hover,
+.judul2button:hover {
+ scale: 1.07;
+ box-shadow: 0 0 5px #F0DA00;
+}
+
+@media screen and (max-width:1100px) {
+ .judul1 h1 {
+  font-size: 2rem;
+ }
+
+ .judul1 h2 {
+  font-size: 1.2rem;
+ }
+
+ .judul1button,
+ .judul2button {
+  font-size: 1rem;
+ }
+}
+
+.section-1 {
+ width: 100%;
+}
+
+.section-1-main {
+ background-color: #F0DA00;
+ width: 100%;
+ padding: 10px;
+ height: auto;
+ justify-content: center;
+ text-align: center;
+}
+
+.section-1-main div h1 {
+ font-weight: bold;
+ font-size: 5rem;
+ margin-bottom: 50px;
+ text-decoration: underline;
+}
+
+.section-1-main-p {
+ margin: 5px 15px;
+}
+
+.section-1-main div p {
+ font-weight: 500;
+ font-size: 2.5rem;
+}
+
+
+.section-1-svg1 {
+ transform: translateY(20px);
+ position: relative;
+ z-index: -1;
+ margin-top: -10px;
+}
+
+.section-1-svg2 {
+ transform: translateY(-100px);
+ position: relative;
+ z-index: -1;
+ margin-bottom: -10px;
+}
+
+@media screen and (max-width:1100px) {
+ .section-1-main div h1 {
+  font-size: 3rem;
+ }
+
+ .section-1-main div p {
+  font-size: 1.7rem;
+ }
+
+ .section-1-svg1 {
+  transform: translateY(10px);
+ }
+
+ .section-1-svg2 {
+  transform: translateY(-50px);
+ }
+}
+
+@media screen and (max-width:681px) {
+ .section-1-main div h1 {
+  font-size: 2.5rem;
+ }
+
+ .section-1-main div p {
+  font-size: 1rem;
+ }
+
+ .section-1-svg1 {
+  transform: translateY(10px);
+ }
+
+ .section-1-svg2 {
+  transform: translateY(-50px);
+ }
+}
+
+.section-2 {
+ margin: 50px 0;
+}
+
+.section-2-main h1 {
+ text-align: center;
+ color: white;
+ font-weight: 700;
+ font-size: 4rem;
+}
+
+.section-2-main hr {
+ background-color: white;
+ height: 5px;
+ margin: 50px 0;
+}
+
+.section-2-card {
+ width: 500px;
+ overflow: hidden;
+ background: white;
+ border-radius: 10px;
+ box-shadow: 0 0 5px black;
+ text-align: center;
+ transition: all ease 0.5s;
+ margin: 50px auto;
+}
+
+.section-2-card:hover {
+ scale: 1.05;
+ box-shadow: 0 0 5px white, 0 0 10px white, 0 0 20px white;
+}
+
+.section-2-card:hover .section-2-card img {
+ transform: translateY(-20px);
+}
+
+.section-2-card img {
+ width: auto;
+ height: 300px;
+ margin-top: 20px;
+ border-radius: 10px;
+ box-shadow: 0 0 5px black;
+}
+
+.section-2-card-body {
+ height: 200px;
+ text-align: center;
+}
+
+.section-2-card-body div {
+ font-size: 3rem;
+ margin-top: 50px;
+ font-weight: bold;
+ font-family: "poppins";
+}
+
+.section-2-card a button {
+ width: 100%;
+ bottom: 0;
+ padding: 20px;
+ border: none;
+ font-size: 2.5rem;
+ background-color: #F0DA00;
+ box-shadow: 0 0 10px black;
+ color: var(--background);
+ font-weight: bold;
+ transition: all ease 0.3s;
+}
+
+.section-2-card a button:hover {
+ background-color: var(--background);
+ color: #F0DA00;
+}
+
+@media screen and (max-width:1100px) {
+ .section-2-main h1 {
+  font-size: 2rem;
+ }
+
+ .section-2-card {
+  width: 300px;
+  margin-top: 50px;
+ }
+
+ .section-2-card img {
+  height: 150px;
+ }
+
+ .section-2-card-body {
+  height: 70px;
+ }
+
+ .section-2-card-body div {
+  font-size: 1.5rem;
+  margin-top: 20px;
+ }
+
+ .section-2-card a button {
+  font-size: 1.3rem;
+ }
+}
+
+@media screen and (max-width:681px) {
+ .section-2-card {
+  width: 200px;
+  margin-top: 0px;
+ }
+
+ .section-2-card img {
+  height: 100px;
+ }
+
+ .section-2-card-body div {
+  margin-top: 20px;
+ }
+
+ .section-2-card a button {
+  padding: 10px;
+ }
+}
+
+.quotes {
+ margin: 300px 0;
+}
+
+.question-main {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-color: #F0DA00;
+ margin: auto;
+
+ border-radius: 30px;
+
+}
+
+.question-main h1 {
+ font-weight: bold;
+ font-size: 4rem;
+ color: #F0DA00;
+ background: var(--background);
+ border: 2px solid #F0DA00;
+ width: auto;
+ transform: translateY(-20px)
+}
+
+.question-body span {
+ font-weight: 500;
+ font-size: 3.5rem;
+}
+
+.question-body p {
+ font-size: 3rem;
+}
+
+@media screen and (max-width:1100px) {
+ .question-main h1 {
+  font-size: 2.5rem;
+ }
+
+ .question-body span {
+  font-size: 1.7rem;
+ }
+
+ .question-body p {
+  font-size: 1.5rem;
+ }
+}
+
+@media screen and (max-width:681px) {
+ .question-main h1 {
+  font-size: 2rem;
+ }
+
+ .question-body span {
+  font-size: 1.3rem;
+ }
+
+ .question-body p {
+  font-size: 1rem;
+ }
+}

@@ -1,0 +1,71 @@
+.section-body {
+ margin-top: 10vh;
+ background: white;
+ border-radius: 20px;
+ box-shadow: 0 0 10px rgba(28, 32, 42, 1);
+ padding: 10px 5px;
+}
+
+.section-body-judul {
+ margin: 50px 0;
+ text-align: center;
+}
+
+.section-body-judul span {
+ font-weight: bold;
+ font-size: 2rem;
+ border: 2px solid #F0DA00;
+ border-radius: 10px;
+ padding: 10px 15px;
+ color: white;
+ background: var(--background);
+ box-shadow: 0 0 5px rgba(28, 32, 42, 1);
+}
+
+.section-body-img {
+ justify-content: center;
+ display: flex;
+ align-items: center;
+ text-align: center;
+}
+
+.section-body-img img {
+ box-shadow: 0 0 5px rgba(28, 32, 42, 1);
+ border-radius: 10px;
+ height: 400px;
+ width: auto;
+}
+
+.section-body-deskripsi {
+ margin: 35px 0;
+ text-align: center;
+}
+
+.section-body-deskripsi span {
+ font-weight: bold;
+ font-size: 1.5rem;
+ border: 2px solid rgba(28, 32, 42, 1);
+ border-radius: 10px;
+ padding: 10px 15px;
+ color: rgba(28, 32, 42, 1);
+ background: #F0DA00;
+ box-shadow: 0 0 5px rgba(28, 32, 42, 1);
+}
+
+.section-body-isi {
+ text-align: start;
+}
+
+.section-body-isi span {
+ margin: 20px 30px;
+ font-family: "poppins";
+ font-size: 2.5rem;
+ font-weight: 500;
+}
+
+.section-body-isi p {
+ margin: 20px 30px;
+ font-family: "poppins";
+ font-size: 1.8rem;
+ font-weight: 300;
+}
