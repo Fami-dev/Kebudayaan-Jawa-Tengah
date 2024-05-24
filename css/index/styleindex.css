@@ -2,7 +2,7 @@
  display: flex;
  align-items: center;
  justify-content: center;
- background-image: linear-gradient(to top, rgba(28, 32, 42, 1), rgba(28, 32, 42, 0)), url('../img/jateng.jpg');
+ background-image: linear-gradient(to top, rgba(28, 32, 42, 1), rgba(28, 32, 42, 0)), url('https://github.com/Fami-dev/Kebudayaan-Jawa-Tengah/blob/754f1f4dff673a74e3fcda66ee392ccc8585a10b/img/jateng.jpg');
  background-repeat: no-repeat;
  background-position: center;
  background-size: cover;
